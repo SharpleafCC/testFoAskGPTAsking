@@ -1,0 +1,68 @@
+{
+    "key": "group_637bb7c161774",
+    "title": "Taxonomy Grid",
+    "fields": [
+        {
+            "key": "field_637bb7c114edc",
+            "label": "Items",
+            "name": "items",
+            "aria-label": "",
+            "type": "acfe_taxonomy_terms",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "taxonomy": [
+                "product_cat"
+            ],
+            "allow_terms": "",
+            "allow_level": "",
+            "field_type": "checkbox",
+            "default_value": [],
+            "return_format": "object",
+            "layout": "horizontal",
+            "toggle": 0,
+            "save_terms": 0,
+            "load_terms": 0,
+            "choices": [],
+            "ui": 0,
+            "multiple": 0,
+            "allow_null": 0,
+            "ajax": 0,
+            "placeholder": "",
+            "search_placeholder": "",
+            "allow_custom": 0,
+            "other_choice": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page",
+                "operator": "==",
+                "value": "2794"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "left",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "acfe_display_title": "",
+    "acfe_autosync": [
+        "json"
+    ],
+    "acfe_form": 0,
+    "acfe_meta": "",
+    "acfe_note": "",
+    "modified": 1696277980
+}

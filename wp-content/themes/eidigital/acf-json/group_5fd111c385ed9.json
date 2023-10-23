@@ -1,0 +1,72 @@
+{
+    "key": "group_5fd111c385ed9",
+    "title": "Page Settings",
+    "fields": [
+        {
+            "key": "field_5fd111d8f5333",
+            "label": "Page Class",
+            "name": "page_class",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Use this field to set a custom class on a post\/page. This can be used to load specific CSS files at run time.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_6005c5be22de0",
+            "label": "Page JS",
+            "name": "page_js",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Use this field to set a custom name for JS files on a post\/page. This can be used to load specific JS files at run time.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "page"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "side",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "acfe_display_title": "",
+    "acfe_autosync": [
+        "json"
+    ],
+    "acfe_form": 0,
+    "acfe_meta": "",
+    "acfe_note": "",
+    "modified": 1682458868
+}

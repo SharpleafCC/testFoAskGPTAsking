@@ -1,0 +1,15 @@
+pre {
+    color: #fff
+}
+
+.accordion__item-arrow {
+    &.active {
+        transform: rotate(180deg);
+    }
+}
+
+.accordion__item-content-cover {
+    &.active {
+        max-height: 1000px;
+    }
+}

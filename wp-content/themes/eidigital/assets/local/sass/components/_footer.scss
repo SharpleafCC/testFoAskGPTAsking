@@ -1,0 +1,136 @@
+footer {
+	padding: 70px 0;
+	section {
+		flex-direction: column;
+	}
+	ul {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		list-style: none;
+		@include media("<lg") {
+			flex-direction: column;
+			align-items: stretch;
+			width: 100%;
+		}
+		li {
+			margin-right: 20px;
+			@include media("<lg") {
+				margin-right: 0;
+				margin-bottom: 10px;
+			}
+			&:last-of-type {
+				margin: 0;
+			}
+		}
+	}
+	a,
+	.ot-sdk-show-settings {
+		position: relative;
+		text-decoration: none;
+		padding: 0;
+		cursor: pointer;
+	}
+	.footer__menu {
+		a {
+			&:after {
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				content: '';
+				height: 1px;
+				width: 0;
+				background-color: transparent;
+				transition: all 0.3s ease-in-out;
+			}
+			&:hover {
+				&:after {				
+					content: '';
+					height: 1px;
+					width: 100%;
+					@apply bg-black;
+				}
+			}
+		}
+	}
+	.social {
+		flex-direction: row;
+		align-items: center;
+		li {
+			margin-right: 20px;
+			margin-bottom: 0;
+			&:last-of-type {
+				margin-right: 0;
+			}
+		}
+		a {
+			position: relative;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			padding: 10px;
+			&::before,
+			&::after {
+				box-sizing: inherit;
+				content: "";
+				position: absolute;
+				width: 100%;
+				height: 100%;
+			}
+
+			&::before,
+			&::after {
+				// Set border to invisible, so we don't see a 4px border on a 0x0 element before the transition starts
+				border: 2px solid transparent;
+				width: 0;
+				height: 0;
+			}
+
+			// This covers the top & right borders (expands right, then down)
+			&::before {
+				top: 0;
+				left: 0;
+			}
+
+			// And this the bottom & left borders (expands left, then up)
+			&::after {
+				bottom: 0;
+				right: 0;
+			}
+
+			// Hover styles
+			&:hover::before,
+			&:hover::after {
+				width: 100%;
+				height: 100%;
+			}
+
+			&:hover::before {
+				@apply border-white border-t-2 border-r-2;
+				transition: width 0.1s ease-out,
+					// Width expands first
+					height 0.1s ease-out 0.1s; // And then height
+			}
+
+			&:hover::after {
+				@apply border-white border-t-2 border-l-2;
+				transition: border-color 0s ease-out 0.1s,
+					// Wait for ::before to finish before showing border
+					width 0.1s ease-out 0.1s,
+					// And then exanding width
+					height 0.1s ease-out 0.15s; // And finally height
+			}
+		}
+		img {
+			max-width: 15px;
+		}
+	}
+}
+.footer__logo {
+	img {
+		max-width: 45px;
+	}
+}
+.footer__legal {
+	font-size: 10px;
+}

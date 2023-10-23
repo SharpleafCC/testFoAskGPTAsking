@@ -1,0 +1,64 @@
+{
+    "key": "group_637e74b5e8d9e",
+    "title": "Visibility",
+    "fields": [
+        {
+            "key": "field_637e74b6f73ec",
+            "label": "Visibility",
+            "name": "visibility",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "visible-all": "Visible All",
+                "hide-md-down": "Visible Desktop Only",
+                "hide-sm-down": "Visible Tablet and Up",
+                "hide-lg-up": "Visible Mobile and Tablet",
+                "visible-md": "Visible Tablet Only",
+                "visible-sm": "Visible Mobile Only"
+            },
+            "default_value": "visible-all",
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": "",
+            "allow_custom": 0,
+            "search_placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page",
+                "operator": "==",
+                "value": "2794"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "left",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "acfe_display_title": "",
+    "acfe_autosync": [
+        "json"
+    ],
+    "acfe_form": 0,
+    "acfe_meta": "",
+    "acfe_note": "",
+    "modified": 1696277922
+}

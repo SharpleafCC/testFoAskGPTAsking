@@ -1,0 +1,62 @@
+.recommended-address {
+
+}
+
+.recommended-address__content {
+    display: flex;
+    flex-flow: column wrap;
+
+    @include media('>md') {
+        flex-flow: row nowrap;
+    }
+
+    .address-content {
+        flex: 0 0 100%;
+
+        @include media('>md') {
+            flex: 0 0 50%;
+        }
+    }
+}
+
+.address-content__wrap {
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 3px;
+    border: 1px solid #b8b8b8;
+    transition: background-color .3s ease;
+
+    &:hover {
+        background-color: #eee;
+    }
+}
+
+.address-content__wrap p[class*="__city"],
+.address-content__wrap p[class*="__state"] {
+    display: inline-block;
+    width: auto;
+}
+
+.address-content__wrap p[class*="__state"] {
+    padding-left: 10px;
+}
+
+.address-content__item {
+    margin: 0;
+
+    &:first-of-type {
+        margin-top: 20px;
+    }
+
+    &:last-of-type {
+        margin-bottom: 20px;
+    }
+}
+
+.ei-form__field {
+    border-bottom: 1px solid transparent;
+}
+
+.ei-form__field--error {
+    border-bottom-color: red;
+}

@@ -1,0 +1,58 @@
+.announcement {
+	position: relative;
+	left: 0;
+	right: 0;
+	z-index: 6;
+	display: block;
+	transition: all 0.75s ease-in-out;
+
+	&.is-sticky {
+		position: fixed;
+	}
+
+	&.hidden {
+		display: none;
+	}
+
+	p {
+		a {
+			color: inherit;
+		}
+	}
+
+	&.bottom {
+		bottom: 0;
+	}
+
+	&.top {
+		top: 0;
+	}
+
+	&-content {
+		position: relative;
+	}
+
+	.close {
+		position: absolute;
+		top: 5px;
+		right: 40px;
+		color: white;
+		z-index: 99;
+	}
+}
+
+.admin-bar {
+	.announcement {
+		&.top {
+			top: 32px;
+		}
+	}
+
+	@media screen and (max-width: 782px) {
+		.announcement {
+			&.top {
+				top: 46px;
+			}
+		}
+	}
+}

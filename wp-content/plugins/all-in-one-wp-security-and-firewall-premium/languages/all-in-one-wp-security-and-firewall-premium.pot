@@ -1,0 +1,667 @@
+# Copyright (C) 2023 all-in-one-wp-security-and-firewall-premium
+# This file is distributed under the same license as the all-in-one-wp-security-and-firewall-premium package.
+msgid ""
+msgstr ""
+"Project-Id-Version: all-in-one-wp-security-and-firewall-premium\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Team Updraft <mail@example.com>\n"
+"Last-Translator: Team Updraft <mail@example.com>\n"
+"POT-Creation-Date: 2023-09-14 09:33+0000\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/all-in-one-wp-security-and-firewall-premium\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/aiowps-premium-core.php:188, src/admin/aiowps-premium-maxmind-settings.php:81
+msgid "Show"
+msgstr ""
+
+#: src/aiowps-premium-core.php:189, src/admin/aiowps-premium-maxmind-settings.php:80
+msgid "Show password"
+msgstr ""
+
+#: src/aiowps-premium-core.php:190
+msgid "Hide"
+msgstr ""
+
+#: src/aiowps-premium-core.php:191
+msgid "Hide password"
+msgstr ""
+
+#: src/aiowps-premium-core.php:223, src/aiowps-premium-free-required-notice.php:44
+msgid "Attention:"
+msgstr ""
+
+#: src/aiowps-premium-core.php:223
+msgid "You do not have the plugin %s active."
+msgstr ""
+
+#: src/aiowps-premium-core.php:223
+msgid "The %s plugin needs to be installed and active in order for the %s Premium plugin to work."
+msgstr ""
+
+#: src/aiowps-premium-core.php:229
+msgid "Please upgrade the %s Plugin."
+msgstr ""
+
+#: src/aiowps-premium-core.php:229
+msgid "You need at least version 4.0.4 in order for the %s Premium addon to work."
+msgstr ""
+
+#: src/aiowps-premium-core.php:287
+msgid "The MaxMind license key is invalid, if you have recently created this key, you may need to wait for it to become active."
+msgstr ""
+
+#: src/aiowps-premium-core.php:296
+msgid "Failed to download the MaxMind database."
+msgstr ""
+
+#. translators: %s: MaxMind database download exception error
+#: src/aiowps-premium-core.php:311
+msgid "MaxMind database download error: %s"
+msgstr ""
+
+#. translators: $1: Temp MaxMind database file downloaded path, $2 MaxMind database storage file path
+#: src/aiowps-premium-core.php:321
+msgid "Move MaxMind database file from %1$s to %2$s"
+msgstr ""
+
+#. translators: %s: MaxMind Geo Database path.
+#: src/aiowps-premium-core.php:371
+msgid "The %s file is not readable, ensure that the file exists."
+msgstr ""
+
+#: src/aiowps-premium-core.php:371
+msgid "If it exists, please ensure that the file path is writable and readable."
+msgstr ""
+
+#: src/aiowps-premium-core.php:356
+msgid "Please add the MaxMind license key <a href=\"%s\">here</a> to use the Country blocking and Smart 404 features."
+msgstr ""
+
+#. translators: %s: Maxmind db download location.
+#: src/aiowps-premium-core.php:476
+msgid "The request to the filesystem failed: unable to create directory %s."
+msgstr ""
+
+#: src/aiowps-premium-core.php:476
+msgid " Please check your file permissions."
+msgstr ""
+
+#: src/aiowps-premium-core.php:550
+msgid "Attention! You do not have the %s active."
+msgstr ""
+
+#: src/aiowps-premium-core.php:550
+msgid "The %s plugin needs to be installed and active in order for the %s Premium addon to work!"
+msgstr ""
+
+#: src/aiowps-premium-free-required-notice.php:48
+msgid "please install and activate the free AIOS plugin"
+msgstr ""
+
+#: src/aiowps-premium-free-required-notice.php:46
+msgid "please activate the free AIOS plugin"
+msgstr ""
+
+#: src/aiowps-premium-free-required-notice.php:53
+msgid "AIOS Premium requires the AIOS free plugin to be installed and activated."
+msgstr ""
+
+#: src/aiowps-premium-free-required-notice.php:87
+msgid "Would you like to install and activate the AIOS free plugin?"
+msgstr ""
+
+#: src/aiowps-premium-free-required-notice.php:91
+msgid "Install the AIOS plugin now"
+msgstr ""
+
+#: src/aiowps-premium-free-required-notice.php:61
+msgid "The AIOS free plugin is installed, but not activated."
+msgstr ""
+
+#: src/aiowps-premium-free-required-notice.php:64
+msgid "Would you like to activate the AIOS free plugin?"
+msgstr ""
+
+#: src/aiowps-premium-free-required-notice.php:80
+msgid "Activate AIOS free plugin"
+msgstr ""
+
+#: src/aiowps-premium.php:34
+msgid "All In One WP Security & Firewall Premium"
+msgstr ""
+
+#: src/aiowps-premium.php:39
+msgid "%s plugin has been deactivated."
+msgstr ""
+
+#: src/aiowps-premium.php:40
+msgid "This plugin requires PHP version %s."
+msgstr ""
+
+#: src/aiowps-premium.php:41
+msgid "Your current PHP version is %s."
+msgstr ""
+
+#: src/aiowps-premium.php:42
+msgid "You will need to ask your web hosting company to upgrade."
+msgstr ""
+
+#: src/admin/aiowps-cb-settings-menu.php:74
+msgid "You entered an incorrect format for the \"Redirect URL\" field, it has been set to the default value."
+msgstr ""
+
+#: src/admin/aiowps-cb-settings-menu.php:89, src/admin/aiowps-cb-settings-menu.php:241, src/admin/smart-404-settings-menu.php:76
+msgid "Attention!"
+msgstr ""
+
+#: src/admin/aiowps-cb-settings-menu.php:105
+msgid "Country Blocking Settings"
+msgstr ""
+
+#: src/admin/aiowps-cb-settings-menu.php:110, src/admin/aiowps-cb-settings-menu.php:124
+msgid "Enable Country Blocking"
+msgstr ""
+
+#: src/admin/aiowps-cb-settings-menu.php:114
+msgid "Each country and territory around the world has an IP address range which is allocated to it."
+msgstr ""
+
+#: src/admin/aiowps-cb-settings-menu.php:115
+msgid "When a visitor lands on your site, this feature will determine which country they are from by examining their IP address and it will block users based their country if applicable."
+msgstr ""
+
+#: src/admin/aiowps-cb-settings-menu.php:116
+msgid "We use the most professional, accurate and up-to-date Geo-IP database available to maximize the successful identification of users and their originating countries."
+msgstr ""
+
+#: src/admin/aiowps-cb-settings-menu.php:127
+msgid "Check this if you want to enable the country blocking feature"
+msgstr ""
+
+#: src/admin/aiowps-cb-settings-menu.php:133
+msgid "Country Blocking Options"
+msgstr ""
+
+#: src/admin/aiowps-cb-settings-menu.php:137, src/admin/aiowps-cb-settings-menu.php:298
+msgid "Blocking Action"
+msgstr ""
+
+#: src/admin/aiowps-cb-settings-menu.php:140, src/admin/aiowps-cb-settings-menu.php:301
+msgid "redirect"
+msgstr ""
+
+#: src/admin/aiowps-cb-settings-menu.php:142, src/admin/aiowps-cb-settings-menu.php:303
+msgid "Set the type of blocking action you would like to perform"
+msgstr ""
+
+#: src/admin/aiowps-cb-settings-menu.php:146, src/admin/aiowps-cb-settings-menu.php:325
+msgid "Redirect URL"
+msgstr ""
+
+#: src/admin/aiowps-cb-settings-menu.php:148, src/admin/aiowps-cb-settings-menu.php:327
+msgid "Set the value for the URL where you want to send the blocked visitor to"
+msgstr ""
+
+#: src/admin/aiowps-cb-settings-menu.php:153
+msgid "Select Countries"
+msgstr ""
+
+#: src/admin/aiowps-cb-settings-menu.php:176, src/admin/aiowps-cb-settings-menu.php:360, src/admin/aiowps-cb-settings-menu.php:456, src/admin/aiowps-cb-settings-menu.php:506, src/admin/aiowps-premium-maxmind-settings.php:89, src/admin/smart-404-settings-menu.php:235, src/admin/smart-404-settings-menu.php:273, src/admin/smart-404-settings-menu.php:320
+msgid "Save Settings"
+msgstr ""
+
+#: src/admin/aiowps-cb-settings-menu.php:217
+msgid " You entered an incorrect format for the \"Redirect URL\" field, it has been set to the default value."
+msgstr ""
+
+#: src/admin/aiowps-cb-settings-menu.php:222
+msgid "You must submit at least one page or post ID!"
+msgstr ""
+
+#: src/admin/aiowps-cb-settings-menu.php:257
+msgid "Secondary Country Blocking Settings"
+msgstr ""
+
+#: src/admin/aiowps-cb-settings-menu.php:262, src/admin/aiowps-cb-settings-menu.php:285
+msgid "Enable Secondary Country Blocking"
+msgstr ""
+
+#: src/admin/aiowps-cb-settings-menu.php:266
+msgid "The secondary settings on this page allow you to further refine how you block visitors based on the specific pages and posts they try to visit."
+msgstr ""
+
+#: src/admin/aiowps-cb-settings-menu.php:267
+msgid "The countries you selected in the \"General Settings\" tab will be blocked from the whole site (You can think of the \"General Settings\" as the first line of blocking defence)."
+msgstr ""
+
+#: src/admin/aiowps-cb-settings-menu.php:268
+msgid "The settings on this page are for those countries which have not been blocked sitewide."
+msgstr ""
+
+#: src/admin/aiowps-cb-settings-menu.php:269
+msgid "This feature can be very useful for eCommerce situations such as when merchants wish to confine their online sales to people from certain countries due to shipping or tax constraints."
+msgstr ""
+
+#: src/admin/aiowps-cb-settings-menu.php:277
+msgid "NOTE: These settings will apply to visitors who are not blocked by the \"General Settings\" configuration."
+msgstr ""
+
+#: src/admin/aiowps-cb-settings-menu.php:277
+msgid "If your \"General Settings\" configuration is disabled or no country is selected, then the \"Secondary Settings\" will apply to all visitors."
+msgstr ""
+
+#: src/admin/aiowps-cb-settings-menu.php:288
+msgid "Check this if you want to enable the secondary country blocking feature."
+msgstr ""
+
+#: src/admin/aiowps-cb-settings-menu.php:288
+msgid "This will allow you to block countries based on certain posts or pages."
+msgstr ""
+
+#: src/admin/aiowps-cb-settings-menu.php:294
+msgid "Country Page Blocking Options"
+msgstr ""
+
+#: src/admin/aiowps-cb-settings-menu.php:307
+msgid "Enter Post/Page IDs To Protect:"
+msgstr ""
+
+#: src/admin/aiowps-cb-settings-menu.php:311
+msgid "Enter one or more page/post IDs you wish to block/redirect certain countries for (Each entry must be on a new line)."
+msgstr ""
+
+#: src/admin/aiowps-cb-settings-menu.php:312, src/admin/aiowps-cb-settings-menu.php:328
+msgid "More Info"
+msgstr ""
+
+#: src/admin/aiowps-cb-settings-menu.php:315
+msgid "Each post/page ID must be on a new line."
+msgstr ""
+
+#: src/admin/aiowps-cb-settings-menu.php:316
+msgid "To find the ID simply edit the post or page and look in your browser bar, the ID is value after the \"post.\" parameter."
+msgstr ""
+
+#: src/admin/aiowps-cb-settings-menu.php:317
+msgid "Example: wp-admin/post.php?post=<strong>528</strong>&action=edit"
+msgstr ""
+
+#: src/admin/aiowps-cb-settings-menu.php:318
+msgid "The post/page ID in this example is 528."
+msgstr ""
+
+#: src/admin/aiowps-cb-settings-menu.php:331
+msgid "Example: If you sell products which ship only in your country, you could create a special page for visitors from other countries."
+msgstr ""
+
+#: src/admin/aiowps-cb-settings-menu.php:331
+msgid "On this page you can explain why they can't view your store pages."
+msgstr ""
+
+#: src/admin/aiowps-cb-settings-menu.php:332
+msgid "You would then enter the URL of that page in this setting."
+msgstr ""
+
+#: src/admin/aiowps-cb-settings-menu.php:339
+msgid "Select Countries To Block/Redirect"
+msgstr ""
+
+#: src/admin/aiowps-cb-settings-menu.php:391
+msgid "Nonce check failed for save country block whitelist settings!"
+msgstr ""
+
+#: src/admin/aiowps-cb-settings-menu.php:395, src/admin/smart-404-settings-menu.php:126
+msgid "You must submit at least one IP address!"
+msgstr ""
+
+#: src/admin/aiowps-cb-settings-menu.php:425
+msgid "Country Blocking Login Whitelist"
+msgstr ""
+
+#: src/admin/aiowps-cb-settings-menu.php:428
+msgid "This feature gives you the option of allowing certain IP addresses or ranges from blocked countries to have access to your WordPress site."
+msgstr ""
+
+#: src/admin/aiowps-cb-settings-menu.php:433
+msgid "Country Blocking IP Whitelist Settings"
+msgstr ""
+
+#: src/admin/aiowps-cb-settings-menu.php:439
+msgid "Enable Country Blocking IP Whitelist"
+msgstr ""
+
+#: src/admin/aiowps-cb-settings-menu.php:442, src/admin/smart-404-settings-menu.php:299
+msgid "Check this if you want to enable the whitelisting of selected IP addresses specified in the settings below"
+msgstr ""
+
+#: src/admin/aiowps-cb-settings-menu.php:446, src/admin/smart-404-settings-menu.php:310
+msgid "Enter Whitelisted IP Addresses:"
+msgstr ""
+
+#: src/admin/aiowps-cb-settings-menu.php:450, src/admin/smart-404-settings-menu.php:314
+msgid "Enter one or more IP addresses or IP ranges you wish to include in your whitelist."
+msgstr ""
+
+#: src/admin/aiowps-cb-settings-menu.php:450
+msgid "The addresses specified here will have access to your site even if they come from a country which is blocked."
+msgstr ""
+
+#: src/admin/aiowps-cb-settings-menu.php:477
+msgid "Nonce check failed for save country block advanced settings!"
+msgstr ""
+
+#: src/admin/aiowps-cb-settings-menu.php:485
+msgid "Country Blocking Advanced Settings"
+msgstr ""
+
+#: src/admin/aiowps-cb-settings-menu.php:487
+msgid "Use Ajax For Country Blocking Checks"
+msgstr ""
+
+#: src/admin/aiowps-cb-settings-menu.php:491
+msgid "If you are using a caching solution on your website such as WP Optimize or similar, then you will need to enable this feature."
+msgstr ""
+
+#: src/admin/aiowps-cb-settings-menu.php:499
+msgid "Enable Country Blocking AJAX"
+msgstr ""
+
+#: src/admin/aiowps-cb-settings-menu.php:502
+msgid "Check this if you are using caching such as WP Optimize etc."
+msgstr ""
+
+#: src/admin/aiowps-premium-maxmind-settings.php:22, src/admin/aiowps-premium-maxmind-settings.php:59
+msgid "Integration"
+msgstr ""
+
+#: src/admin/aiowps-premium-maxmind-settings.php:36
+msgid "Nonce check failed for save maxmind licence key!"
+msgstr ""
+
+#: src/admin/aiowps-premium-maxmind-settings.php:55
+msgid "Please add the MaxMind license key below to use the \"Country Blocking\" and \"Smart 404\" features."
+msgstr ""
+
+#: src/admin/aiowps-premium-maxmind-settings.php:61
+msgid "MaxMind Geolocation"
+msgstr ""
+
+#: src/admin/aiowps-premium-maxmind-settings.php:63
+msgid "An integration for utilizing MaxMind to do Geolocation lookups, please note that this integration will only do country lookups."
+msgstr ""
+
+#: src/admin/aiowps-premium-maxmind-settings.php:67
+msgid "The key that will be used when dealing with MaxMind Geolocation services."
+msgstr ""
+
+#. translators: %s: Maxmind documentation & signup url
+#: src/admin/aiowps-premium-maxmind-settings.php:69
+msgid "You can read how to generate a MaxMind Geolocation key from <a href=\"%s\" target=\"_blank\">here</a>."
+msgstr ""
+
+#: src/admin/aiowps-premium-maxmind-settings.php:70
+msgid "To create a MaxMind account signup <a href=\"%s\" target=\"_blank\">here</a>."
+msgstr ""
+
+#: src/admin/aiowps-premium-maxmind-settings.php:77
+msgid "MaxMind License Key"
+msgstr ""
+
+#: src/admin/smart-404-list-blocked-ip.php:90
+msgid "Please select some records using the checkboxes"
+msgstr ""
+
+#: src/admin/smart-404-list-blocked-ip.php:119
+msgid "Nonce check failed for unblock IP operation!"
+msgstr ""
+
+#: src/admin/smart-404-settings-menu.php:64
+msgid "You entered a non numeric value for the max login attempts field, it has been set to the default value."
+msgstr ""
+
+#: src/admin/smart-404-settings-menu.php:70
+msgid "You entered a non numeric value for the 404 retry time period field, it has been set to the default value."
+msgstr ""
+
+#: src/admin/smart-404-settings-menu.php:93, src/admin/smart-404-settings-menu.php:122
+msgid "Nonce check failed for save smart 404 whitelist settings!"
+msgstr ""
+
+#: src/admin/smart-404-settings-menu.php:98
+msgid "You must submit at least one blocking string!"
+msgstr ""
+
+#: src/admin/smart-404-settings-menu.php:161
+msgid "Smart 404 Configuration"
+msgstr ""
+
+#: src/admin/smart-404-settings-menu.php:164
+msgid "Hackers often use automated scripts and bots to constantly probe your site looking for certain URLs they think they can exploit."
+msgstr ""
+
+#: src/admin/smart-404-settings-menu.php:165
+msgid "This repeated probing will cause a lot of http 404 events."
+msgstr ""
+
+#: src/admin/smart-404-settings-menu.php:166
+msgid "This addon allows you to monitor and permanently block IP addresses if they cause more than a certain number of 404 events."
+msgstr ""
+
+#: src/admin/smart-404-settings-menu.php:172
+msgid "Smart 404 Settings"
+msgstr ""
+
+#: src/admin/smart-404-settings-menu.php:202
+msgid "# 404 Events Today: "
+msgstr ""
+
+#: src/admin/smart-404-settings-menu.php:203
+msgid "# IPs Permanently Blocked Today: "
+msgstr ""
+
+#: src/admin/smart-404-settings-menu.php:204
+msgid "All Time Total IPs Blocked: "
+msgstr ""
+
+#: src/admin/smart-404-settings-menu.php:205, src/admin/wp-security-premium-admin-init.php:137
+msgid "View Blocked IPs"
+msgstr ""
+
+#: src/admin/smart-404-settings-menu.php:189
+msgid "You currently have no IP addresses permanently blocked due to 404."
+msgstr ""
+
+#: src/admin/smart-404-settings-menu.php:216
+msgid "Enable Smart 404 Feature"
+msgstr ""
+
+#: src/admin/smart-404-settings-menu.php:219
+msgid "Check this if you want to enable smart404 blocking and apply the settings below"
+msgstr ""
+
+#: src/admin/smart-404-settings-menu.php:223
+msgid "Max 404 Events"
+msgstr ""
+
+#: src/admin/smart-404-settings-menu.php:225
+msgid "Set the value for the maximum number of 404 events before IP address is blocked"
+msgstr ""
+
+#: src/admin/smart-404-settings-menu.php:229
+msgid "404 Retry Time Period (min)"
+msgstr ""
+
+#: src/admin/smart-404-settings-menu.php:231
+msgid "If the maximum number of http 404 events for a particular IP address occur within this time period the plugin will permanently block that address."
+msgstr ""
+
+#: src/admin/smart-404-settings-menu.php:241
+msgid "Instant 404 Blocking Based On String Match"
+msgstr ""
+
+#: src/admin/smart-404-settings-menu.php:242
+msgid "This feature allows you instantly block an IP address based on whether a certain string is contained within the URL which produced the 404 event."
+msgstr ""
+
+#: src/admin/smart-404-settings-menu.php:243
+msgid "The settings below allow you to specify the strings you wish to look out for inside a URL which causes a 404."
+msgstr ""
+
+#: src/admin/smart-404-settings-menu.php:244
+msgid "If the plugin detects one of the strings inside the URL which caused the 404, it will instantly add the IP address to the permanent block list."
+msgstr ""
+
+#: src/admin/smart-404-settings-menu.php:249
+msgid "Instant 404 Block By String Match"
+msgstr ""
+
+#: src/admin/smart-404-settings-menu.php:255
+msgid "Enable Instant 404 Block Based On String Match"
+msgstr ""
+
+#: src/admin/smart-404-settings-menu.php:258
+msgid "Check this if you want to instantly block an IP address if the URL contains one of the strings listed below AND a 404 event."
+msgstr ""
+
+#: src/admin/smart-404-settings-menu.php:262
+msgid "Enter Strings You Wish To Base 404 Blocking On:"
+msgstr ""
+
+#: src/admin/smart-404-settings-menu.php:267
+msgid "Enter one or more strings you want to listen for during 404 events and based on this block the IP address instantly."
+msgstr ""
+
+#: src/admin/smart-404-settings-menu.php:268
+msgid "Each string must be on a new line."
+msgstr ""
+
+#: src/admin/smart-404-settings-menu.php:279
+msgid "Smart 404 White List"
+msgstr ""
+
+#: src/admin/smart-404-settings-menu.php:280
+msgid "In certain cases you may want to prevent particular IP addresses from being permanently blocked due to 404 events."
+msgstr ""
+
+#: src/admin/smart-404-settings-menu.php:281
+msgid "One common case is if you are using a malware scanning service, because the malware scanning bots can often produce 404 events as part of their checks."
+msgstr ""
+
+#: src/admin/smart-404-settings-menu.php:282
+msgid "This feature gives you the option of allowing certain IP addresses or ranges to be immune from being blocked permanently due to too many 404 events."
+msgstr ""
+
+#: src/admin/smart-404-settings-menu.php:288
+msgid "Smart 404 Whitelist Settings"
+msgstr ""
+
+#: src/admin/smart-404-settings-menu.php:296
+msgid "Enable IP Whitelisting"
+msgstr ""
+
+#: src/admin/smart-404-settings-menu.php:303
+msgid "Your Current IP Address"
+msgstr ""
+
+#: src/admin/smart-404-settings-menu.php:306
+msgid "You can copy and paste this address in the text box below if you want to include it in your login whitelist."
+msgstr ""
+
+#: src/admin/smart-404-settings-menu.php:349
+msgid "This tab displays the list of all permanently blocked IP addresses due to 404 events."
+msgstr ""
+
+#: src/admin/smart-404-settings-menu.php:350
+msgid "NOTE: This feature does NOT use the .htaccess file to permanently block the IP addresses so it should be compatible with all web servers running WordPress."
+msgstr ""
+
+#: src/admin/smart-404-settings-menu.php:351
+msgid "You can also view a list of all 404 events by clicking the following button:"
+msgstr ""
+
+#: src/admin/smart-404-settings-menu.php:352
+msgid "View All 404 Events"
+msgstr ""
+
+#: src/admin/smart-404-settings-menu.php:358
+msgid "Permanently Blocked IP Addresses"
+msgstr ""
+
+#: src/admin/smart-404-settings-menu.php:468
+msgid "Smart 404 Stats"
+msgstr ""
+
+#: src/admin/smart-404-settings-menu.php:479, src/admin/smart-404-settings-menu.php:513, src/admin/smart-404-settings-menu.php:552, src/admin/smart-404-settings-menu.php:592
+msgid "No data to display yet"
+msgstr ""
+
+#: src/admin/smart-404-settings-menu.php:509
+msgid "Last 10 Days - 404 Events By IP"
+msgstr ""
+
+#: src/admin/smart-404-settings-menu.php:548
+msgid "All Time Top 5 - 404 Events By Country"
+msgstr ""
+
+#: src/admin/smart-404-settings-menu.php:586
+msgid "All Time Top 10 - Number of IPs Blocked By Country"
+msgstr ""
+
+#: src/admin/wp-security-premium-admin-init.php:99
+msgid "Smart 404"
+msgstr ""
+
+#: src/admin/wp-security-premium-admin-init.php:117
+msgid "You currently have no IP addresses permanently blocked due to 404s."
+msgstr ""
+
+#: src/admin/wp-security-premium-admin-init.php:133
+msgid "# 404 Events Today:"
+msgstr ""
+
+#: src/admin/wp-security-premium-admin-init.php:134
+msgid "# IPs Permanently Blocked Today:"
+msgstr ""
+
+#: src/admin/wp-security-premium-admin-init.php:135
+msgid "All Time Total IPs Blocked:"
+msgstr ""
+
+#: src/admin/wp-security-premium-admin-init.php:148
+msgid "Country"
+msgstr ""
+
+#: src/classes/aiowps-wpcli-commands.php:66
+msgid "set command called without an option name."
+msgstr ""
+
+#: src/classes/aiowps-wpcli-commands.php:71
+msgid "set %s command not allowed."
+msgstr ""
+
+#: src/classes/aiowps-wpcli-commands.php:76
+msgid "set command called without an option value."
+msgstr ""
+
+#: src/classes/aiowps-wpcli-commands.php:130
+msgid "Command to set %s with value %s is not allowed."
+msgstr ""
+
+#: src/classes/aiowps-wpcli-commands.php:136
+msgid "Success: set %s to value %s."
+msgstr ""
+
+#: src/classes/aiowps-wpcli-commands.php:196
+msgid "reset --all is only supported right now."
+msgstr ""
+
+#: src/classes/aiowps-wpcli-commands.php:191
+msgid "Do you want to proceed?"
+msgstr ""

@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+//======================================================================
+// Base file should only have imports here
+//======================================================================
+
+// Settings
+@import 'settings';
+
+// Mixins
+// Add Media Queries Framework - https://eduardoboucas.github.io/include-media/
+@import 'mixins/media_queries';
+
+// UI
+//@import 'ui/normalize';
+//@import 'ui/reset';
+@import 'ui/fonts';
+@import 'ui/utilities';
+
+// WP Core
+@import 'components/wp_core';
+
+
+// Components
+@import 'components/header';
+@import 'components/footer';
+@import 'components/form';
+@import 'components/agegate';
+@import 'components/popups';
+@import 'components/recommended-address';
+@import 'components/campaign-form';
+@import 'components/announcement';
+@import 'components/video';
+
+// Modules
+@import 'modules/accordion-module';
+@import 'modules/form_selection';
+@import 'modules/image_grid';
+@import 'modules/quiz';
+@import 'modules/slider';
+@import 'modules/social_grid';
+@import 'modules/background-images';

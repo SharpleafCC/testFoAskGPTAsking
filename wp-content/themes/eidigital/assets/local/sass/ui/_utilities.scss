@@ -1,0 +1,41 @@
+.text-left {
+	text-align: left !important;
+}
+
+.text-right {
+	text-align: right !important;
+}
+
+.text-center {
+	text-align: center !important;
+}
+
+.visible-sm {
+	@include media(">md") {
+		display: none !important;
+	}
+}
+
+.visible-md {
+	@include media("<md", ">md") {
+		display: none !important;
+	}
+}
+
+.hide-sm-down {
+	@include media("<md") {
+		display: none !important;
+	}
+}
+
+.hide-md-down {
+	@include media("<lg") {
+		display: none !important;
+	}
+}
+
+.hide-lg-up {
+	@include media(">=lg") {
+		display: none !important;
+	}
+}

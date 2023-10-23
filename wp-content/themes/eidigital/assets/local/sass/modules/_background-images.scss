@@ -1,0 +1,15 @@
+.background-image-support {
+    background-image: var(--backgroundImageMobile);
+    background-position: var(--backgroundPositionMobile);
+    background-size: var(--backgroundSizeMobile);
+    background-repeat: var(--backgroundRepeatMobile);
+    background-color: var(--backgroundColorMobile);
+
+    @include media('>lg') {
+        background-image: var(--backgroundImageDesktop);
+        background-position: var(--backgroundPositionDesktop);
+        background-size: var(--backgroundSizeDesktop);
+        background-repeat: var(--backgroundRepeatDesktop);
+        background-color: var(--backgroundColorDesktop);
+    }
+}

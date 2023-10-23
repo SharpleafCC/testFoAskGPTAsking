@@ -1,0 +1,85 @@
+{
+    "key": "group_640202e991e37",
+    "title": "ACF to Template",
+    "fields": [
+        {
+            "key": "field_640202ed59808",
+            "label": "ACF Group Field Name",
+            "name": "acf_group_field_name",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "This must match a ACF field or ACF Group name that is set on the current post you are editing. This will allow you to pass all those fields to the template file that is selected below.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_6402033059809",
+            "label": "ACF Group Theme Template",
+            "name": "acf_group_theme_template",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "Select desired template file. Template files are located in the theme directory \/template-parts\/components\/",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "acf_field_group_sample": "acf_field_group_sample",
+                "agegate": "agegate",
+                "announcement": "announcement",
+                "button_buynow": "button_buynow",
+                "locator": "locator",
+                "popup": "popup",
+                "social": "social"
+            },
+            "default_value": false,
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": "",
+            "allow_custom": 0,
+            "search_placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page",
+                "operator": "==",
+                "value": "2794"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "left",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "acfe_display_title": "",
+    "acfe_autosync": [
+        "json"
+    ],
+    "acfe_form": 0,
+    "acfe_meta": "",
+    "acfe_note": "",
+    "modified": 1696277687
+}

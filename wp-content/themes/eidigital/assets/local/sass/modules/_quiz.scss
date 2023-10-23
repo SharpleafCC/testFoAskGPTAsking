@@ -1,0 +1,72 @@
+body {
+    @apply bg-white;
+
+    section.quiz {
+        .progress-bar {
+			transition: 0.4s linear;  
+			transition-property: width, background-color;    
+        }
+
+        .quiz-card {
+            transform: translateX(120%);
+            -webkit-transform: translateX(120%);
+            transition: all .5s ease;
+
+            &.active {
+                animation: slide-in 0.5s forwards;
+                -webkit-animation: slide-in 0.5s forwards;
+            }
+            &.back {
+                transform: translateX(-120%);
+                -webkit-transform: translateX(-120%);
+            }
+        }
+
+        .answer {
+            @media (hover: hover) {
+                &:hover,
+                span:hover {
+                    @apply bg-black text-white;
+                }
+            }
+        }
+
+        .results-product-cta {
+            @media (hover: hover) {
+                &:hover {
+                    @apply bg-black text-white;
+                }
+            }
+        }
+
+        .next-button,
+        .back-button,
+        .results-shop {
+            @media (hover: hover) {
+                &:hover {
+                    @apply bg-black text-white;
+                }
+            }
+        }
+    }
+}
+
+@keyframes slide-in {
+    100% { 
+        transform: translateX(0%); 
+    }
+}
+
+@keyframes slide-out {
+    0% { 
+        opacity: 1;
+        transform: translateX(0%); 
+    }
+    99% {
+        opacity: 1;
+    }
+    100% { 
+        opacity: 0;
+        transform: translateX(-120%);
+    }
+}

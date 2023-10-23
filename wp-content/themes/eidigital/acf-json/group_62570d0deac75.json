@@ -1,0 +1,211 @@
+{
+    "key": "group_62570d0deac75",
+    "title": "Module - Image Content",
+    "fields": [
+        {
+            "key": "field_62571a31457e8",
+            "label": "Image Content",
+            "name": "image-content",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "row",
+            "acfe_seamless_style": 0,
+            "acfe_group_modal": 0,
+            "acfe_group_modal_close": 0,
+            "acfe_group_modal_button": "",
+            "acfe_group_modal_size": "large",
+            "sub_fields": [
+                {
+                    "key": "field_62571a42457e9",
+                    "label": "Orientation",
+                    "name": "image-content__orientation",
+                    "aria-label": "",
+                    "type": "radio",
+                    "instructions": "Orientation is specifically for desktop. On mobile, the image block will ALWAYS show before the content block, unless changed via CSS.",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "1": "Image Left \/ Content Right",
+                        "2": "Content Left \/ Image Right"
+                    },
+                    "allow_null": 0,
+                    "other_choice": 0,
+                    "default_value": 2,
+                    "layout": "vertical",
+                    "return_format": "value",
+                    "save_other_choice": 0
+                },
+                {
+                    "key": "field_62571ae3457ea",
+                    "label": "Title",
+                    "name": "image-content__title",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "Part of the content block",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_62571aef457eb",
+                    "label": "Subtitle",
+                    "name": "image-content__subtitle",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "Part of the content block",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_62571b01457ec",
+                    "label": "Description",
+                    "name": "image-content__description",
+                    "aria-label": "",
+                    "type": "textarea",
+                    "instructions": "Part of the content block.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "maxlength": "",
+                    "rows": "",
+                    "new_lines": "br",
+                    "acfe_textarea_code": 0
+                },
+                {
+                    "key": "field_62571b13457ed",
+                    "label": "CTA",
+                    "name": "image-content__cta",
+                    "aria-label": "",
+                    "type": "link",
+                    "instructions": "Part of the content block",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array"
+                },
+                {
+                    "key": "field_62571b2c457ee",
+                    "label": "Mobile Image",
+                    "name": "image-content__mobile-image",
+                    "aria-label": "",
+                    "type": "image",
+                    "instructions": "Part of the image block",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "preview_size": "medium",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": "",
+                    "uploader": "",
+                    "acfe_thumbnail": 0
+                },
+                {
+                    "key": "field_62571be9457ef",
+                    "label": "Desktop Image",
+                    "name": "image-content__mobile-desktop",
+                    "aria-label": "",
+                    "type": "image",
+                    "instructions": "Part of the image block",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "preview_size": "medium",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": "",
+                    "uploader": "",
+                    "acfe_thumbnail": 0
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page",
+                "operator": "==",
+                "value": "2794"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "acfe_display_title": "",
+    "acfe_autosync": [
+        "json"
+    ],
+    "acfe_form": 0,
+    "acfe_meta": "",
+    "acfe_note": "",
+    "modified": 1696277888
+}

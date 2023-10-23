@@ -1,0 +1,72 @@
+{
+    "key": "group_65302576da462",
+    "title": "Animations and Effects",
+    "fields": [
+        {
+            "key": "field_6530257a53cbb",
+            "label": "Pin Section",
+            "name": "pin_section",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "Toggle on to pin the section while scrolling. This will make the section appear stuck while scrolling and allow for parallax effects to be applied to elements.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui_on_text": "",
+            "ui_off_text": "",
+            "ui": 1
+        },
+        {
+            "key": "field_653025bb1817d",
+            "label": "Fade In Entrance",
+            "name": "add_fade_in",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "Toggle this on to apply entrance animations to content.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui_on_text": "",
+            "ui_off_text": "",
+            "ui": 1
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page",
+                "operator": "==",
+                "value": "2794"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "left",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "acfe_display_title": "",
+    "acfe_autosync": [
+        "json"
+    ],
+    "acfe_form": 0,
+    "acfe_meta": "",
+    "acfe_note": "",
+    "modified": 1697654291
+}

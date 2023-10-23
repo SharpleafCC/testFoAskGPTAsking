@@ -1,0 +1,6 @@
+@import url( 'assets/prod/css/app.min.css' );
+/* Override the white font style just in the admin so we can see it! */
+.editor-white-font, 
+.module-white-font {
+    color: #000000;
+}

@@ -1,0 +1,13 @@
+/* WP-Admin - Content Block reduce height
+===========================================================================*/
+.edit-post-visual-editor {
+    flex-basis: 10% !important; 
+}
+
+.edit-post-visual-editor {
+    flex: 0 !important; 
+}
+
+.edit-post-layout .interface-interface-skeleton__content {
+	background-color: #ffffff;
+}

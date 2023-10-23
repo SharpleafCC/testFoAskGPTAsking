@@ -1,0 +1,96 @@
+.popup {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	@apply bg-black bg-opacity-75;	
+	z-index: 99999;
+	transition: all 0.5s ease-in-out;
+	&.active {
+		display: grid;
+		visibility: visible;
+		opacity: 1;
+		transition: all 0.5s ease-in-out;
+	}
+}
+
+.popup__content {
+	position: relative;
+	background-color: #fefefe;
+	margin: auto;
+	padding: 0;
+	width: 90%;
+	max-width: 850px;
+	-webkit-animation-name: animatetop;
+	-webkit-animation-duration: 0.4s;
+	animation-name: animatetop;
+	animation-duration: 0.75s;
+	.close {
+		position: absolute;
+		top: 10px;
+		right: 10px;
+		color: white;
+		z-index: 99;
+	}
+	h1 {
+		font-size: 60px;
+		line-height: 60px;
+		@include media("<lg") {
+			font-size: 40px;
+			line-height: 40px;
+		}
+	}
+	// OVERRIDE Scroll reveal within popups
+	.scroll__reveal {
+		visibility: visible !important;
+		opacity: 1 !important;
+		transition: none !important;
+		transform: none !important;
+	}
+
+	&.fly-in-top{
+		animation: fly-in-top linear;
+	}
+	&.fly-in-bottom{
+		animation: fly-in-bottom linear;
+	}
+	&.fly-in-left{
+		animation: fly-in-left linear;
+	}
+	&.fly-in-right{
+		animation: fly-in-right linear;
+	}
+}
+
+
+@-webkit-keyframes animatetop {
+	from {top:-300px; opacity:0} 
+	to {top:0; opacity:1}
+  }
+  
+  @keyframes animatetop {
+	from {top:-300px; opacity:0}
+	to {top:0; opacity:1}
+  }
+
+
+  @keyframes fly-in-top {
+	from {top: -100%}
+	to {top:0;}
+  }
+  @keyframes fly-in-bottom {
+	from {bottom: -100%}
+	to {bottom:0;}
+  }
+  @keyframes fly-in-left {
+	from {left: -100%}
+	to {left:0;}
+  }
+  @keyframes fly-in-right {
+	from {right: -100%}
+	to {right:0;}
+  }

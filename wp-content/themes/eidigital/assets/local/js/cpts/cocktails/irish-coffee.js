@@ -1,0 +1,1 @@
+alert("irish-coffee.js");

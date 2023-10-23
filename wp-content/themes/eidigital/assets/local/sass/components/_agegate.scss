@@ -1,0 +1,30 @@
+body {
+	&.age-gate-passsed {
+		.body__content,
+		footer {
+			opacity: 1;
+		}
+	}
+}
+
+.body__content {
+	opacity: 0;
+	transition: all 0.75s ease-in-out;
+}
+
+.dialog-prevent-scroll {
+	overflow: hidden;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	.body__content {
+		opacity: 0;
+		transition: all 0.75s ease-in-out;
+	}
+}
+
+#agegate {
+	&.active {
+		visibility: visible;
+		opacity: 1;
+	}
+}
